@@ -17,7 +17,8 @@ CCScene* HelloWorld::scene()
 
     // add layer as a child to scene
     scene->addChild(layer);
-
+	/*CCLayer *pLayer = TestLayer::create();
+	scene->addChild(pLayer)*/;
     // return the scene
     return scene;
 }

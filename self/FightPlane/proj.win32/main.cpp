@@ -2,6 +2,8 @@
 #include "../Classes/AppDelegate.h"
 #include "CCEGLView.h"
 
+#include <assert.h>
+
 USING_NS_CC;
 
 int APIENTRY _tWinMain(HINSTANCE hInstance,
